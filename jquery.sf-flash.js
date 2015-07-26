@@ -1,6 +1,6 @@
 (function ($) {
 
-    $.fn.sfflash = function( options ) {
+    $.fn.sfFlash = function( options ) {
 
         var flashMessage = $(this);
 
