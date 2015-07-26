@@ -1,8 +1,8 @@
 (function ($) {
 
-    $.fn.sfFlash = function( options ) {
+    $.fn.sfFlash = function( selector ) {
 
-        var flashMessage = $(this);
+        var flashMessage = $(selector);
 
         if (flashMessage) {
             window.setTimeout(function(){
