@@ -1,7 +1,7 @@
 # Snowfire Flash Message
 
 
-Snowfire Flash Message is a tiny (2KB!) jQuery plugin which allows you to produce quick, Google-like flash messages. If you add the default class, you'll get some styling included. If you would rather use your own selector, you can have a look at the CSS file and just cope that over to your class to achieve the same effect.
+Snowfire Flash Message is a tiny (0.3KB!) jQuery plugin which allows you to produce quick, Google-like flash messages. If you add the default class, you'll get some styling included. If you would rather use your own selector, you can have a look at the CSS file and just cope that over to your class to achieve the same effect.
 
 ## Dependencies
 
