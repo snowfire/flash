@@ -24,5 +24,9 @@
   ],
   "dependencies": {
     "animate.css": "~3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snowfire/sf-flash.git"
   }
 }
