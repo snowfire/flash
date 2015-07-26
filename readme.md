@@ -37,3 +37,10 @@ To use the package, you need to insert the actual flash message on the page wher
 </script>
 </body>
 ```
+
+## Options
+
+The plugin also supports a few options to be passed in.
+
+- *delay (50)* – The number of milliseconds before the script runs
+- *duration (5000)* – The number of milliseconds that the flash message should be displayed

@@ -1,6 +1,13 @@
 (function ($) {
 
-    $.fn.sfFlash = function() {
+    var defaultOptions = {
+        delay: 50,
+        duration: 5000
+    };
+
+    $.fn.sfFlash = function(options) {
+
+        var settings = $.extend(defaultOptions, options);
 
         var flashMessage = this;
 
@@ -14,11 +21,11 @@
             if (flashMessage) {
                 window.setTimeout(function(){
                     flashMessage.show().addClass('fadeInUp animated');
-                }, 50);
+                }, settings.delay);
 
                 window.setTimeout(function(){
                     flashMessage.addClass('fadeOutDown animated');
-                }, 5000);
+                }, settings.duration);
             }
         }
 
