@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="animate.min.css">
 	<title>Snowfire Flash</title>
 </head>
 <body>
@@ -14,9 +15,14 @@
 </div>
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="jquery.sf-flash.min.js"></script>
+<script src="jquery.sf-flash.min.js"></script>
 <script type="text/javascript">
+$(function() {
 	$('.sf-flash').sfFlash();
+	$('#activate-flash').click(function() {
+		$('body').append('<div class="sf-flash">Success</div>');
+	});
+});
 </script>
 </body>
 </html>
