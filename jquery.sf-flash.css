@@ -1,7 +1,7 @@
 .sf-flash {
     display: none;
     background: #404040;
-    position: absolute;
+    position: fixed;
     bottom: 47px;
     left: 30px;
     padding: 20px 16px;
